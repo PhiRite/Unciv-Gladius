@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Infantry",
+        "movementType": "Land",
+    },
+    {
+        "name": "Vehicle",
+        "movementType": "Land",
+        "uniques": []
+    },
+    {
+        "name": "Skimmer",
+        "movementType": "Land",
+        "uniques": ["May travel on Water tiles without embarking", "Comment [dev note: try to make so costs more movement in certain rough terrain]"]
+    },
+    {
+        "name": "Aircraft",
+        "movementType": "Land",
+        "uniques": ["Can pass through impassable tiles", "[+2] Sight", "May travel on Water tiles without embarking"]
+    },
+    {
+        "name": "Monster",
+        "movementType": "Land",
+        "uniques": ["Ignores terrain cost"]
+    },
+]
