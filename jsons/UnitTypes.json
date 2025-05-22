@@ -6,12 +6,12 @@
     {
         "name": "Vehicle",
         "movementType": "Land",
-        "uniques": []
     },
     {
         "name": "Skimmer",
         "movementType": "Land",
-        "uniques": ["May travel on Water tiles without embarking", "Comment [dev note: try to make so costs more movement in certain rough terrain]"]
+        //to add: [This Unit] loses [1] movement <upon entering a [insert forests/ruins/hills :D] tile>
+        "uniques": ["May travel on Water tiles without embarking"]
     },
     {
         "name": "Aircraft",
