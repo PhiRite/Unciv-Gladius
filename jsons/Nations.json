@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Space Marines",
+        "leadername": "Arkhan",
+        "outerColor": [50, 100, 100],
+		"innerColor": [180, 140, 90],
+
+        "startIntroPart1": "Show the people the might of our technology",
+
+        "declaringWar": "Educate the people!",
+        "attacked": "Oh well, lets hope your god will aid you in this war.",
+        "defeated": "I should have taken you down with me.",
+		"introduction": "Do you wish to see the wonders of science?",
+
+        "neutralHello": "Greetings.",
+		"hateHello": "What do YOU want?!",
+
+        "tradeRequest": "It appears that you do have a reason for existing, to make this deal with me.",
+		"startBias": ["Plains"],
+
+        "uniqueName": "Codex Astartes",
+        "uniques": ["Comment [May only Found 1 True city, will then be only able to expand yung fortifications]",
+                    "Comment [fortifications grant the resources on top of it without needing population]",
+                    "Comment [research allows most units to drop from cities to anywhere in the map]"],
+
+        "cities": [],
+    }
+]
