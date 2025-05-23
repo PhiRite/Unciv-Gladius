@@ -23,6 +23,6 @@
                     "Comment [fortifications grant the resources on top of it without needing population]",
                     "Comment [research allows most units to drop from cities to anywhere in the map]"],
 
-        "cities": [],
+        "cities": ["Inser"],
     }
 ]
