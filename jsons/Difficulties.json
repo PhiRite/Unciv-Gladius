@@ -196,7 +196,7 @@
 		"aiUnitSupplyModifier": 0.25,
 		"aiFreeTechs": [],
 		"aiMajorCivBonusStartingUnits": [],
-		"aiCityStateBonusStartingUnits": ["],
+		"aiCityStateBonusStartingUnits": [],
 		"aiUnhappinessModifier": 0.9,
 		"aisExchangeTechs": true,
 		"turnBarbariansCanEnterPlayerTiles": 0,
