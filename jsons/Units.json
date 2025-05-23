@@ -1,4 +1,21 @@
 [
+    //needed placeholders
+    {
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
+	},
+	{
+		"name": "Settler",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			        "Requires at least [2] population"],
+		"hurryCostModifier": 20
+	},
     {
         "name": "Tactical Space Marine",
         "unitType": "Infantry",
@@ -11,7 +28,7 @@
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
                     "[This Unit] gains the [BoltGun] promotion",
-                    //model logics
+                    //model logics - five models
                     "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [4-Model] promotion <when above [60] HP> <upon entering a [All] tile> <hidden from users>",
@@ -23,7 +40,7 @@
                     "[This Unit] gains the [1-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
                     "[This Unit] loses the [1-Model] promotion <when above [20] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
         "attackSound": "shot"
-    }
+    },
     {
         "name": "Tech Marine",
         "unitType": "Infantry",
@@ -31,9 +48,12 @@
         "hurryCostModifier": 100,
         "movement": 3,
         "strength": 10,
+        "rangedstrength": 10,
+        "range": 2,
         "uniqueTo": "Space Marines",
+        "replaces": "Settler",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
-                    "Founds a new city <by consuming this unit>", "Can build [Land] improvements on tiles",
+                    "Can build [Land] improvements on tiles", "Founds a new city <for all movement> <if [Capital] is not constructed>",
                     "[This Unit] gains the [BoltGun] promotion", "[This Unit] gains the [1-Model] promotion"],
         "attackSound": "shot"
     }
