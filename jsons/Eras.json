@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Prehistoric era",
+        "researchAgreementCost": 0,
+        "startingSettlerCount": 1,
+        "startingSettlerUnit": "Tech Marine",
+        "startingMilitaryUnitCount": 3,
+        "startingMilitaryUnit": "Tactical Space Marine",
+        "settlerPopulation": 1,
+        "baseUnitBuyCost": 200,
+        "embarkDefense": 2,
+        "startPercent": 0,
+        "citySound": "cityAncient",
+        "iconRGB": [255, 167, 35]
+    }
+]
