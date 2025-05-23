@@ -180,5 +180,16 @@
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
+	{
+		"name": "Fallout",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"unbuildable": true,
+		"uniques": ["Nullifies all other stats this tile provides", "Doesn't generate naturally"],
+		// For map editor only - the generator won't place it without code or enabling uniques
+		// If the map generator is ever updated to always take these into account, it should also take the "Doesn't generate naturally" unique into account
+		"occursOn": ["Grassland","Savanna","Desert","Tundra","Arctic","Forest","Jungle","Hill","Flood plains","Marsh","Oasis"],
+		"defenceBonus": -0.15
+	},
 	
 ]
