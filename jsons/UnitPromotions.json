@@ -1,0 +1,49 @@
+[
+    {
+        "name": 1-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 2-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 3-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 4-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 5-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 6-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 7-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    {
+        "name": 8-Model,
+        "uniques": ["Comment [This unit currently has this many model(s)]",
+                    "[+1]% Strength <hidden from users>"]
+    },
+    
+    {
+        "name": BoltGun,
+        "uniques": ["Comment [Fires 1 round per model, each dealing 1-3 damage.]", "[+1]% Strength <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <vs [2-model] units> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <vs [2-model] units> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <vs [2-model] units> <hidden from users>"]
+    }
+]
