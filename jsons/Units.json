@@ -12,4 +12,18 @@
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]"],
         "attackSound": "shot"
     }
+    {
+        "name": "Tech Marine",
+        "unitType": "Infantry",
+        "cost": 18,
+        "hurryCostModifier": 100,
+        "movement": 3,
+        "strength": 10,
+        "rangedstrength": 10,
+        "range": 2,
+        "uniqueTo": "Space Marines",
+        "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
+                    "Founds a new city <by consuming this unit>", "Can build [Land] improvements on tiles"],
+        "attackSound": "shot"
+    }
 ]
