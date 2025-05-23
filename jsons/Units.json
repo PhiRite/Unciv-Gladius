@@ -10,6 +10,7 @@
         "range": 2,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
+                    "[This Unit] gains the [BoltGun] promotion",
                     //model logics
                     "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
@@ -30,11 +31,10 @@
         "hurryCostModifier": 100,
         "movement": 3,
         "strength": 10,
-        "rangedstrength": 10,
-        "range": 2,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
-                    "Founds a new city <by consuming this unit>", "Can build [Land] improvements on tiles"],
+                    "Founds a new city <by consuming this unit>", "Can build [Land] improvements on tiles",
+                    "[This Unit] gains the [BoltGun] promotion", "[This Unit] gains the [1-Model] promotion"],
         "attackSound": "shot"
     }
 ]
