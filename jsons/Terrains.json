@@ -149,12 +149,10 @@
 					"[+1] to Fertility for Map Generation",
 					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
 					"Base Terrain on this tile is not counted for Region determination",
-					"Starts in regions of this type receive an extra [Sheep]",
 					"Considered [Desirable] when determining start locations",
 					"Considered [Production] when determining start locations",
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
-	
 	{
 		"name": "Forest",
 		"type": "TerrainFeature",
@@ -177,6 +175,22 @@
 					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
 		"civilopediaText": [{"text":"A Camp can be built here without cutting it down", "link":"Improvement/Camp"}]
 	},
+    {
+        "name": "River",
+        "type": "TerrainFeature",
+        "gold": 1,
+        "movementCost": 0,  // So Civilopedia won't display a cost of 1
+        "uniques": ["Doesn't generate naturally", "Excluded from map editor"],
+        "civilopediaText": [
+            {"text": "Rivers exist on tile edges, not as terrain feature per se."},
+            {"text": "Tiles on both sides gain its benefits. These benefits do not stack."},
+            {"text": "The tile has access to fresh water, allowing farming where it would otherwise not be possible (similar to Oases and Lakes)."},
+            {"text": "Movement across rivers takes all remaining movement points of a unit unless there is a bridge."},
+            // See BattleConstants.ATTACKING_ACROSS_RIVER_MALUS:
+            {"text": "When attacking across a river, the attacker gets a -20% strength malus."},
+            // Related Buildings and Beliefs are automatically linked
+        ]
+    },
 	{
 		"name": "Fallout",
 		"type": "TerrainFeature",
@@ -188,5 +202,63 @@
 		"occursOn": ["Grassland","Savanna","Desert","Tundra","Arctic","Forest","Hill"],
 		"defenceBonus": -0.15
 	},
+    //gladius
+    {
+		"name": "WireWeed",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Savanna","Grassland","Desert","Tundra","Arctic"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"[25]% Chance to be destroyed by nukes",
+			"Occurs in groups of [2] to [2] tiles",
+            "Units ending their turn on this terrain take [3] damage",
+			"A Region is formed with at least [30]% [WireWeed] tiles, with priority [2]",
+			"A Region can not contain more [Forest] tiles than [WireWeed] tiles",
+            "Nullifies all other stats this tile provides"
+		],
+         "civilopediaText": [{"text":"Damages any unit ending their turn"}]
+	},
+    {
+		"name": "Imperial Ruins",
+		"type": "TerrainFeature",
+		"movementCost": 2,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Savanna","Grassland","Desert","Tundra","Arctic"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+            "Has an elevation of [1] for visibility calculations",
+            "Occurs in groups around high elevations",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [40]% [Imperial Ruins] tiles, with priority [5]",
+            "Base Terrain on this tile is not counted for Region determination",
+			"[25]% Chance to be destroyed by nukes",
+			"Occurs in groups of [1] to [2] tiles",
+		],
+        "civilopediaText": [{"text":"Ruins of the Imperium, May contain hidden cache"}]
+	},
+    {
+		"name": "Orkoid Fungus",
+		"type": "TerrainFeature",
+		"food": 1,
+		"movementCost": 1,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Tundra","Savanna","Grassland","Hill"],
+		"uniques": ["Vegetation",
+					"[25]% Chance to be destroyed by nukes",
+					"A Region is formed with at least [30]% [Orkoid Fungus] tiles, with priority [3]",
+					//"Considered [Food] when determining start locations <in [Forest] Regions>",
+					"Every [39] tiles with this terrain will receive a major deposit of a strategic resource."],
+		"civilopediaText": [{"text":"Orks gain more food and Ork units heal on this tile"}]
+	},
+    
 	
 ]
