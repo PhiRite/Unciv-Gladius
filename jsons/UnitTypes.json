@@ -23,4 +23,9 @@
         "movementType": "Land",
         "uniques": ["Ignores terrain cost"]
     },
+    {
+        "name": "Buildings",
+        "movementType": "Land",
+        "uniques": ["[+2] Sight"]
+    },
 ]
