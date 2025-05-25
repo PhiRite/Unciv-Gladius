@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Power Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "gold": 6,
+		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Housing Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "food": 6,
+		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Influence Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "culture": 6,
+		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Influence Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "happiness": 6,
+		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Requisition Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
+                    "Comment [Produces 6 [Requisition]]",
+                    "Consumes [-6] [Requisition] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Research Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "science": 6,
+		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
+                    "Comment [Produces 6 [Requisition]]",
+                    "Consumes [-6] [Requisition] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Provides Gold"}
+        ]
+    },
+    {
+        "name": "Infantry Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "science": 2,
+        "production": 2,
+		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",
+                    "Comment [Produces 6 [Requisition]]",
+                    "Consumes [-6] [Requisition] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Allows Building Infantry and Produces 6 [Requisition] 2 [Science], and 2 [Production]"}
+        ]
+    },
+    {
+        "name": "Vehicle Building",
+		"turnsToBuild": 7,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "science": 2,
+        "production": 2,
+		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",
+                    "Comment [Produces 6 [Requisition], 2 [Science], and 2 [Production]]",
+                    "Consumes [-6] [Requisition] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Allows Building vehicles and Produces 6 [Requisition] 2 [Science], and 2 [Production]"}
+        ]
+    },
+    {
+        "name": "Aircraft Building",
+		"turnsToBuild": 9,
+		"terrainsCanBeBuiltOn": ["Land"],
+        "Culture": 3,
+        "production": 2,
+		"uniques": ["Consumes [3] [Gold]", "Costs [80] [Requisition]",
+                    "Comment [Produces 3 [Requisition]]",
+                    "Consumes [-3] [Requisition] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Allows Building Aircraft,Produces 3 [Requisition], 3 [Culture], and 2 [Production]"}
+        ]
+    },
+]
