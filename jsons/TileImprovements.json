@@ -3,8 +3,8 @@
         "name": "Power Building",
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
-        "gold": 6,
-		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",],
+		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",
+					"Consumes [-6] [Power] <hidden from users>", "Comment [Produces 6 [Power]]",],
 		"civilopediaText": [
 			{"text": "Provides Gold"}
         ]
@@ -23,18 +23,18 @@
         "name": "Influence Building",
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
-        "culture": 6,
-		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",],
+		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
+					"Consumes [-6] [Influence] <hidden from users>", "Comment [Produces 6 [Influence]]",],
 		"civilopediaText": [
 			{"text": "Provides Gold"}
         ]
     },
     {
-        "name": "Influence Building",
+        "name": "Loyalty Building",
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
-        "happiness": 6,
-		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",],
+		"uniques": ["Consumes [2] [Gold]", "Costs [50] [Requisition]",
+					"Consumes [-6] [Loyalty] <hidden from users>", "Comment [Produces 6 [Loyalty]]",],
 		"civilopediaText": [
 			{"text": "Provides Gold"}
         ]
@@ -56,8 +56,6 @@
 		"terrainsCanBeBuiltOn": ["Land"],
         "science": 6,
 		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
-                    "Comment [Produces 6 [Requisition]]",
-                    "Consumes [-6] [Requisition] <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Provides Gold"}
         ]
