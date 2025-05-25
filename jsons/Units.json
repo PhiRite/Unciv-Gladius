@@ -265,7 +265,7 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Unbuildable",
-                    "Comment [increases cost for each active Tower]", "Consumes [2] [Culture]",
+                    "Comment [increases cost for each active Tower]", "Consumes [2] [Influence]",
                     "Comment [Has 10 Armor, Each point gives 8% increased defense]",
                     "[+80]% Strength <when defending> <hidden from users> ",
                     //model logics - one models
@@ -284,7 +284,7 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Unbuildable",
-                    "Comment [increases cost for each active Tower]", "Consumes [2] [Culture]",
+                    "Comment [increases cost for each active Tower]", "Consumes [2] [Influence]",
                     "Comment [Has 10 Armor, Each point gives 8% increased defense]",
                     "[+80]% Strength <when defending> <hidden from users> ",
                     //model logics - one models
