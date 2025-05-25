@@ -6,19 +6,37 @@
         "resourceType": "Strategic",
         "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
                     "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
-    }
+    },
     {
-        "name": "ore",
+        "name": "Ore",
         "resourceType": "Strategic",
         "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
                     "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
-    }
+    },
+    {
+        "name": "Power",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
+                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "Loyalty",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
+                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "Influence",
+        "resourceType": "Strategic",
+        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
+                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+    },
     {
         "name": "Biomass",
         "resourceType": "Strategic",
         "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
                     "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
-    }
+    },
     {
         "name": "Requisition",
         "resourceType": "Strategic",
