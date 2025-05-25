@@ -55,7 +55,7 @@
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
         "science": 6,
-		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
+		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]"],
 		"civilopediaText": [
 			{"text": "Provides Gold"}
         ]
