@@ -1,5 +1,9 @@
 [
     {
+        "name": "Cooldown",
+		"uniques": ["Comment [Skill is in cooldown]"]
+    },
+    {
         "name": "1-Model",
         "uniques": ["Comment [This unit currently has this many model(s)]",
                     "[+1]% Strength <hidden from users>"]
@@ -49,6 +53,101 @@
         "uniques": ["Comment [This unit currently has this many model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
+    {
+        "name": "1-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+8]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>"]
+    },
+    {
+        "name": "2-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+16]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>"]
+    },
+    {
+        "name": "3-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+24]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>"]
+    },
+    {
+        "name": "4-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+32]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>"]
+    },
+    {
+        "name": "5-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+40]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",]
+    },
+    {
+        "name": "6-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+48]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",]
+    },
+    {
+        "name": "7-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+56]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack>"]
+    },
+    {
+        "name": "8-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+64]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack>",]
+    },
+    {
+        "name": "9-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+72]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack>",]
+    },
+    {
+        "name": "10-Armor",
+        "uniques": ["Comment [Each Point adds 8% defense and blocks 1 dmg point]",
+                    "[+80]% Strength <when defending>", "[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [4] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [5] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [6] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [7] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [8] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [9] HP in a single attack>",
+                    "[This Unit] heals [1] HP <upon losing at least [10] HP in a single attack>"]
+    },
     //grenades cause i aint makin all that
     {
         "name": "FragGrenade",
@@ -63,6 +162,8 @@
                     "[Target Unit] takes [1] damage <upon damaging a [6-model] unit> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [7-model] unit> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [8-model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [9-model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [10-model] unit> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [3-Model]> <hidden from users>",
@@ -70,7 +171,9 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "KrakGrenade",
@@ -84,7 +187,9 @@
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "MeltaBomb",
@@ -98,7 +203,9 @@
                     "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     
     
@@ -116,7 +223,9 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "LasCannon",
@@ -130,7 +239,9 @@
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "StormBolter",
@@ -152,7 +263,11 @@
                     "[Target Unit] takes [2] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [2] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [2] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [2] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "PowerFist",
@@ -165,7 +280,9 @@
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "TwinLasCannon",
@@ -180,7 +297,9 @@
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "KrakMissiles",
@@ -194,7 +313,9 @@
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "FragMissiles",
@@ -216,7 +337,9 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "TwinAssaultCannon",
@@ -255,7 +378,15 @@
                     "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "SkyHammerMissiles",
@@ -269,7 +400,9 @@
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "TwinHeavyBolter",
@@ -300,7 +433,13 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "TwinBoltGun",
@@ -315,7 +454,9 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [5-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [5-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [6-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [6-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [7-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [60]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "HeavyBolter",
@@ -346,7 +487,13 @@
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [6] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
     {
         "name": "AquilaMacroCannons",
@@ -368,6 +515,10 @@
                     "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [7-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [7-Model]> <hidden from users>",
                     "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",]
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [8-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [8-Model]> <hidden from users>",
+                    "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [9-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [9-Model]> <hidden from users>",
+                    "[Target Unit] takes [12] damage <upon damaging a [All] unit> <for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [10-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [10-Model]> <hidden from users>",]
     },
 ]
