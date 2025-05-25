@@ -1,5 +1,8 @@
 {
     "name": "Global uniques",
-    "uniques": [],
+    "uniques": [
+                "[-15]% Production when constructing [Infantry] units [in this city] <for every [{owned [Infantry Building] Tiles} {[in this city] Cities}]>",
+                "[-15]% Production when constructing [Vehicle] units [in this city] <for every [{owned [Vehicle Building] Tiles} {[in this city] Cities}]>",
+                "[-15]% Production when constructing [Aircraft] units [in this city] <for every [{owned [Aircraft Building] Tiles} {[in this city] Cities}]>",],
     "unitUniques": ["[+9999]% Strength <when defending> <hidden from users>", "[-99]% Strength <when attacking> <hidden from users>",]
 }
