@@ -138,7 +138,7 @@
         "rangedstrength": 16,
         "range": 1,
         "uniqueTo": "Space Marines",
-        "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [30] [Requisition]", "Costs [30] [Gold]",
+        "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [30] [Requisition]", "Costs [30] [Power]",
                     "[This Unit] gains the [6-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [2-Model] promotion <when above [49] HP> <upon entering a [All] tile> <hidden from users>",
@@ -227,7 +227,7 @@
         "rangedstrength": 16,
         "range": 1,
         "uniqueTo": "Space Marines",
-        "uniques": ["Cannot be purchased", "Consumes [3] [Gold]", "Costs [30] [Requisition]", "Costs [30] [Gold]",
+        "uniques": ["Cannot be purchased", "Consumes [3] [Power]", "Costs [30] [Requisition]", "Costs [30] [Power]",
                     "[This Unit] gains the [7-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
@@ -245,7 +245,7 @@
         "rangedstrength": 16,
         "range": 1,
         "uniqueTo": "Space Marines",
-        "uniques": ["Cannot be purchased", "Consumes [6] [Gold]", "Costs [60] [Requisition]", "Costs [60] [Gold]",
+        "uniques": ["Cannot be purchased", "Consumes [6] [Power]", "Costs [60] [Requisition]", "Costs [60] [Power]",
                     "[This Unit] gains the [8-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
