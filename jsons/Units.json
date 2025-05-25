@@ -28,12 +28,10 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [40] [Requisition]",
-                    "[This Unit] gains the [BoltGun] promotion", "Comment [Has 8 Armor, Each point gives 8% increased defense]",
+                    "[This Unit] gains the [BoltGun] promotion",
+					"[This Unit] gains the [8-Armor] promotion",
                     "[+64]% Strength <when defending> <hidden from users>",
-                    "Comment [Deals 1 base dmg]",
-		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - five models
-                    "[-20]% Strength <for units with [4-Model]>", "[-40]% Strength <for units with [3-Model]>", "[-60]% Strength <for units with [2-Model]>", "[-80]% Strength <for units with [1-Model]>",
                     "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [4-Model] promotion <when above [60] HP> <upon entering a [All] tile> <hidden from users>",
@@ -42,8 +40,7 @@
                     "[This Unit] loses the [3-Model] promotion <when below [41] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [2-Model] promotion <when above [20] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [1-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
-                    "[This Unit] loses the [1-Model] promotion <when above [20] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
+                    "[This Unit] gains the [1-Model] promotion <hidden from users>"],
         "attackSound": "shot"
     },
     {
@@ -52,17 +49,11 @@
         "cost": 36,
         "hurryCostModifier": 100,
         "movement": 3,
-        "strength": 10,
-        "rangedstrength": 10,
-        "range": 1,
         "uniqueTo": "Space Marines",
         "replaces": "Settler",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]",
-                    "Comment [Deals 1 base dmg]",
-		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     "Can build [Land] improvements on tiles", "Founds a new city <for all movement> <if [Capital] is not constructed>",
-                    "[This Unit] gains the [BoltGun] promotion", "[This Unit] gains the [1-Model] promotion <hidden from users>"],
-        "attackSound": "shot"
+                    "[This Unit] gains the [1-Model] promotion <hidden from users>"]
     },
     {
         "name": "Devastator Space Marine",
@@ -75,18 +66,14 @@
         "range": 3,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [60] [Requisition]", 
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
+                    "[This Unit] gains the [8-Armor] promotion",
                     "[+64]% Strength <when defending> <hidden from users>",
-                    "Comment [Deals 1 base dmg]",
-		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - three models
-                    "[-33]% Strength <for units with [2-Model]>", "[-66]% Strength <for units with [1-Model]>",
                     "[This Unit] gains the [3-Model] promotion <when above [65] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [3-Model] promotion <when below [66] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [2-Model] promotion <when above [32] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [33] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [1-Model] promotion <when below [33] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
-                    "[This Unit] loses the [1-Model] promotion <when above [32] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",
+                    "[This Unit] gains the [1-Model] promotion <hidden from users>",
                     "[This Unit] gains the [LasCannon] promotion"],
         "attackSound": "shot"
     },
@@ -100,13 +87,10 @@
         "rangedstrength": 15,
         "range": 1,
         "uniqueTo": "Space Marines",
-        "uniques": ["Cannot be purchased", "Consumes [4] [Requisition]", "Costs [80] [Requisition]", "Comment [Has 10 Armor, Each point gives 8% increased defense]",
-                    "[+80]% Strength <when defending> <hidden from users>", "[+33]% Strength <when defending>",
-                    "Comment [Deals 1 base dmg]",
-		            "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>",
+        "uniques": ["Cannot be purchased", "Consumes [4] [Requisition]", "Costs [80] [Requisition]", 
+					"[This Unit] gains the [10-Armor] promotion", "[+33]% Strength <when defending>",
                     //model logics - Five models
-                    "[-20]% Strength <for units with [4-Model]>", "[-40]% Strength <for units with [3-Model]>", "[-60]% Strength <for units with [2-Model]>", "[-80]% Strength <for units with [1-Model]>",
-                    "[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
+					"[This Unit] gains the [5-Model] promotion <when above [80] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [5-Model] promotion <when below [81] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [4-Model] promotion <when above [60] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [4-Model] promotion <when below [61] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
@@ -114,9 +98,9 @@
                     "[This Unit] loses the [3-Model] promotion <when below [41] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [2-Model] promotion <when above [20] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [1-Model] promotion <when below [21] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
-                    "[This Unit] loses the [1-Model] promotion <when above [20] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",],
-                    "[This Unit] gains the [StormBolter] promotion"],
+                    "[This Unit] gains the [1-Model] promotion <hidden from users>",
+                    "[This Unit] gains the [StormBolter] promotion",
+					],
         "attackSound": "shot"
     },
     {
@@ -135,14 +119,13 @@
                     "Comment [Deals 2 base dmg]",
 		            "[Target Unit] takes [2] damage <upon damaging a [All] unit> <hidden from users>",
                     //model logics - Five models
-                    "[-33]% Strength <for units with [2-Model]>", "[-66]% Strength <for units with [1-Model]>",
                     "[This Unit] gains the [3-Model] promotion <when above [65] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [3-Model] promotion <when below [66] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [2-Model] promotion <when above [32] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [33] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] gains the [1-Model] promotion <when below [33] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
                     "[This Unit] loses the [1-Model] promotion <when above [32] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [TwinLasCannon] promotion"],
+                    "[This Unit] gains the [TwinLasCannon] promotion", "[This Unit] gains the [KrakMissiles] promotion", "[This Unit] gains the [FragMissiles] promotion"],
         "attackSound": "shot"
     },
     {
@@ -156,15 +139,12 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [30] [Requisition]", "Costs [30] [Gold]",
-                    "Comment [Has 6 Armor, Each point gives 8% increased defense]",
-                    "[+48]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [6-Armor] promotion",
                     //model logics - Five models
-                    "[-50]% Strength <for units with [1-Model]>",
                     "[This Unit] gains the [2-Model] promotion <when above [49] HP> <upon entering a [All] tile> <hidden from users>",
                     "[This Unit] loses the [2-Model] promotion <when below [50] HP> <upon losing at least [1] HP in a single attack> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [1-Model] promotion <when below [50] HP> <upon losing at least [1] HP in a single attack> <hidden from users>",
-                    "[This Unit] loses the [1-Model] promotion <when above [49] HP> <upon entering a [All] tile> <upon entering a [All] tile> <hidden from users>",
-                    "[This Unit] gains the [BoltGun] promotion"],
+                    "[This Unit] gains the [1-Model] promotion <hidden from users>",
+                    "[This Unit] gains the [HeavyBolter] promotion"],
         "attackSound": "shot"
     },
     {
@@ -178,11 +158,10 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [60] [Requisition]",
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [8-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
-                    "[This Unit] gains the [BoltGun] promotion"],
+                    "[This Unit] gains the [SkyHammerMissiles] promotion"],
         "attackSound": "shot"
     },
     {
@@ -196,11 +175,10 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [60] [Requisition]",
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [8-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
-                    "[This Unit] gains the [BoltGun] promotion"],
+                    "[This Unit] gains the [TwinLasCannon] promotion"],
         "attackSound": "shot"
     },
     {
@@ -214,11 +192,11 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [60] [Requisition]",
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [8-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
-                    "[This Unit] gains the [BoltGun] promotion"],
+                    "[This Unit] gains the [MultiMelta] promotion",
+					"[This Unit] gains the [StormBolter] promotion"],
         "attackSound": "shot"
     },
     {
@@ -232,11 +210,11 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [8] [Requisition]", "Costs [160] [Requisition]",
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [10-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
-                    "[This Unit] gains the [BoltGun] promotion"],
+                    "[This Unit] gains the [TwinLasCannon] promotion",
+					"[This Unit] gains the [TwinHeavyBolter] promotion"],
         "attackSound": "shot"
     },
     {
@@ -250,8 +228,7 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [3] [Gold]", "Costs [30] [Requisition]", "Costs [30] [Gold]",
-                    "Comment [Has 7 Armor, Each point gives 8% increased defense]",
-                    "[+56]% Strength <when defending> <hidden from users> ",
+                    "[This Unit] gains the [7-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
                     "[This Unit] gains the [TwinAssaultCannon] promotion",
@@ -269,8 +246,7 @@
         "range": 1,
         "uniqueTo": "Space Marines",
         "uniques": ["Cannot be purchased", "Consumes [6] [Gold]", "Costs [60] [Requisition]", "Costs [60] [Gold]",
-                    "Comment [Has 8 Armor, Each point gives 8% increased defense]",
-                    "[+64]% Strength <when defending> <hidden from users>",
+                    "[This Unit] gains the [8-Armor] promotion",
                     //model logics - Five models
                     "[This Unit] gains the [1-Model] promotion <hidden from users>",
                     "[This Unit] gains the [TwinAssaultCannon] promotion",
