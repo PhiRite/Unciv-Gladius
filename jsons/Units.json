@@ -2,14 +2,14 @@
     //needed placeholders
     {
 		"name": "Worker",
-		"unitType": "Civilian",
+		"unitType": "Infantry",
 		"movement": 2,
 		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
 		"cost": 70
 	},
 	{
 		"name": "Settler",
-		"unitType": "Civilian",
+		"unitType": "Infantry",
 		"movement": 2,
 		"cost": 106,
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
