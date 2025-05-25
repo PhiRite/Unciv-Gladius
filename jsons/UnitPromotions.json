@@ -5,52 +5,52 @@
     },
     {
         "name": "1-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "2-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "3-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "4-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "5-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "6-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "7-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "8-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "9-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
         "name": "10-Model",
-        "uniques": ["Comment [This unit currently has this many model(s)]",
+        "uniques": ["Comment [This unit currently has this many Model(s)]",
                     "[+1]% Strength <hidden from users>"]
     },
     {
@@ -151,19 +151,19 @@
     //grenades cause i aint makin all that
     {
         "name": "FragGrenade",
-        "uniques": ["Comment [Fires 1 grenade(s) per model, each dealing 1-3 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["Comment [Fires 1 grenade(s) per Model, each dealing 1-3 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 0 Armor Pierce, each point adds 8% strength]", "[+0]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
-                    "[Target Unit] takes [1] damage <upon damaging a [1-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [2-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [3-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [4-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [5-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [6-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [7-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [8-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [9-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [10-model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [1-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [2-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [3-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [4-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [5-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [6-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [7-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [8-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [9-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [10-Model] unit> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance><for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [3-Model]> <hidden from users>",
@@ -177,7 +177,7 @@
     },
     {
         "name": "KrakGrenade",
-        "uniques": ["Comment [Fires 1 grenade(s) per model, each dealing 3-5 damage.]",
+        "uniques": ["Comment [Fires 1 grenade(s) per Model, each dealing 3-5 damage.]",
                     "Comment [Has 2 Armor Pierce, each point adds 8% strength]", "[+16]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -193,7 +193,7 @@
     },
     {
         "name": "MeltaBomb",
-        "uniques": ["Comment [Fires 1 grenade(s) per model, each dealing 6-8 damage.]",
+        "uniques": ["Comment [Fires 1 grenade(s) per Model, each dealing 6-8 damage.]",
                     "Comment [Has 8 Armor Pierce, each point adds 8% strength]", "[+64]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
                     "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <hidden from users>",
@@ -213,7 +213,7 @@
     //space marines
     {
         "name": "BoltGun",
-        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per model, each dealing 1-3 damage.]", 
+        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per Model, each dealing 1-3 damage.]", 
                     "Comment [Has 1 Armor Pierce, each point adds 8% strength]", "[+8]% Strength <when attacking> <hidden from users>",
                     "Bolter Weapon",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -229,7 +229,7 @@
     },
     {
         "name": "LasCannon",
-        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per model, each dealing 8-10 damage.]", 
+        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per Model, each dealing 8-10 damage.]", 
                     "Comment [Has 6 Armor Pierce, each point adds 8% strength]", "[+48]% Strength <when attacking> <hidden from users>",
                     "Las Weapon",
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -245,7 +245,7 @@
     },
     {
         "name": "StormBolter",
-        "uniques": ["[1] Range", "Comment [Fires 2 round(s) per model, each dealing 1-3 damage.]", 
+        "uniques": ["[1] Range", "Comment [Fires 2 round(s) per Model, each dealing 1-3 damage.]", 
                     "Comment [Has 1 Armor Pierce, each point adds 8% strength]", "[+8]% Strength <when attacking> <hidden from users>",
                     "Bolter Weapon",
                     "[Target Unit] takes [2] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -271,7 +271,7 @@
     },
     {
         "name": "PowerFist",
-        "uniques": ["Comment [Fires 1 round(s) per model, each dealing 3-5 damage.]", 
+        "uniques": ["Comment [Fires 1 round(s) per Model, each dealing 3-5 damage.]", 
                     "Comment [Has 6 Armor Pierce, each point adds 8% strength]", "[+48]% Strength <when attacking> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
                     "[Target Unit] takes [3] damage <upon damaging a [All] unit> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>",
@@ -286,7 +286,7 @@
     },
     {
         "name": "TwinLasCannon",
-        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per model, each dealing 8-10 damage.]", 
+        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per Model, each dealing 8-10 damage.]", 
                     "Comment [Has 6 Armor Pierce, each point adds 8% strength]", "[+48]% Strength <when attacking> <hidden from users>",
                     "Comment [Twin Linked Weapon, has higher chances to deal max dmg]",
                     "Las Weapon",
@@ -303,7 +303,7 @@
     },
     {
         "name": "KrakMissiles",
-        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per model, each dealing 6-8 damage.]",
+        "uniques": ["[2] Range", "Comment [Fires 1 round(s) per Model, each dealing 6-8 damage.]",
                     "Comment [Has 4 Armor Pierce, each point adds 8% strength]", "[+32]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -319,17 +319,17 @@
     },
     {
         "name": "FragMissiles",
-        "uniques": ["Comment [Fires 1 round(s) per model, each dealing 1-3 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["Comment [Fires 1 round(s) per Model, each dealing 1-3 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 0 Armor Pierce, each point adds 8% strength]", "[+0]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
-                    "[Target Unit] takes [1] damage <upon damaging a [1-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [2-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [3-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [4-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [5-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [6-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [7-model] unit> <hidden from users>",
-                    "[Target Unit] takes [1] damage <upon damaging a [8-model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [1-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [2-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [3-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [4-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [5-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [6-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [7-Model] unit> <hidden from users>",
+                    "[Target Unit] takes [1] damage <upon damaging a [8-Model] unit> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [2-Model]> <hidden from users>",
                     "[Target Unit] takes [1] damage <upon damaging a [All] unit> <for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [3-Model]> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <for units with [3-Model]> <hidden from users>",
@@ -343,7 +343,7 @@
     },
     {
         "name": "TwinAssaultCannon",
-        "uniques": ["[1] Range", "Comment [Fires 4 round(s) per model, each dealing 3-5 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["[1] Range", "Comment [Fires 4 round(s) per Model, each dealing 3-5 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 2 Armor Pierce, each point adds 8% strength]", "[+16]% Strength <when attacking> <hidden from users>",
                     "Comment [Twin Linked Weapon, has higher chances to deal max dmg]",
                     "Bolter Weapon",
@@ -390,7 +390,7 @@
     },
     {
         "name": "SkyHammerMissiles",
-        "uniques": ["Comment [Fires 1 round(s) per model, each dealing 6-8 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["Comment [Fires 1 round(s) per Model, each dealing 6-8 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 6 Armor Pierce, each point adds 8% strength]", "[+48]% Strength <when attacking> <hidden from users>",
                     "Explosive Weapon",
                     "[Target Unit] takes [6] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
@@ -406,7 +406,7 @@
     },
     {
         "name": "TwinHeavyBolter",
-        "uniques": ["[1] Range", "Comment [Fires 3 round(s) per model, each dealing 2-4 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["[1] Range", "Comment [Fires 3 round(s) per Model, each dealing 2-4 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 2 Armor Pierce, each point adds 8% strength]", "[+16]% Strength <when attacking> <hidden from users>",
                     "Comment [Twin Linked Weapon, has higher chances to deal max dmg]",
                     "Bolter Weapon",
@@ -443,7 +443,7 @@
     },
     {
         "name": "TwinBoltGun",
-        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per model, each dealing 1-3 damage.]", 
+        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per Model, each dealing 1-3 damage.]", 
                     "Comment [Has 1 Armor Pierce, each point adds 8% strength]", "[+8]% Strength <when attacking> <hidden from users>",
                     "Comment [Twin Linked Weapon, has higher chances to deal max dmg]",
                     "Bolter Weapon",
@@ -460,7 +460,7 @@
     },
     {
         "name": "MultiMelta",
-        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per model, each dealing 6-8 damage.]", 
+        "uniques": ["[1] Range", "Comment [Fires 1 round(s) per Model, each dealing 6-8 damage.]", 
                     "Comment [Has 8 Armor Pierce, each point adds 8% strength]", "[+64]% Strength <when attacking> <hidden from users>",
                     "Melta Weapon",
                     "[Target Unit] takes [6] damage <upon damaging a [Vehicle] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [Vehicle] unit> <with [40]% chance> <hidden from users>",
@@ -476,7 +476,7 @@
     },
     {
         "name": "HeavyBolter",
-        "uniques": ["[1] Range", "Comment [Fires 3 round(s) per model, each dealing 2-4 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per model]",
+        "uniques": ["[1] Range", "Comment [Fires 3 round(s) per Model, each dealing 2-4 damage.]", "Comment [Fragmentation weapon, deals 1 extra dmg to units per Model]",
                     "Comment [Has 2 Armor Pierce, each point adds 8% strength]", "[+16]% Strength <when attacking> <hidden from users>",
                     "Comment [Twin Linked Weapon, has higher chances to deal max dmg]",
                     "Bolter Weapon",
@@ -513,7 +513,7 @@
     },
     {
         "name": "AquilaMacroCannons",
-        "uniques": ["[4] Range", "Comment [Fires 2 round(s) per model, each dealing 12-14 damage.]", 
+        "uniques": ["[4] Range", "Comment [Fires 2 round(s) per Model, each dealing 12-14 damage.]", 
                     "Comment [Has 8 Armor Pierce, each point adds 8% strength]", "[+64]% Strength <when attacking> <hidden from users>",
                     "Bolter Weapon",
                     "[Target Unit] takes [12] damage <upon damaging a [All] unit> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>", "[Target Unit] takes [1] damage <upon damaging a [All] unit> <with [40]% chance> <hidden from users>",
