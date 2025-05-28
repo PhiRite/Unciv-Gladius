@@ -1,6 +1,8 @@
 {
     "name": "Global uniques",
-    "uniques": ["[-100]% Golden Age length",
+    "uniques": ["[-100]% Golden Age length", 
+                "[+1]% [Production] [in your cities] <for every [1] [Loyalty]>",
+                "[-2]% [Production] [in your cities] <for every [-1] [Loyalty]>",
                 "Quantity of strategic resources produced by the empire +[+1]% <for every [1] [Loyalty]>",
                 "Quantity of strategic resources produced by the empire +[-2]% <for every [-1] [Loyalty]>"],
     "unitUniques": ["[+800]% Strength <when defending>"]
