@@ -2,7 +2,7 @@
     //reminders
     //Gold = power, Culture = influence, happiness = loyalty, science = research, production = production, food = growth(will make new food)
     {
-        "name": "food",
+        "name": "Biomass",
         "resourceType": "Strategic",
         "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
                     "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
