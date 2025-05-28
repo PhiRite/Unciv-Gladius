@@ -1,46 +1,39 @@
 [
     //reminders
-    //Gold = power, Culture = influence, happiness = loyalty, science = research, production = production, food = growth(will make new food)
     {
         "name": "Biomass",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Stockpiled <hidden from users>", "Comment [Is usually used for Infantry costs and upkeeps, Tyranids exclusively use this for all units]",
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded", "Excluded from map editor <hidden from users>"]
     },
     {
         "name": "Ore",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Stockpiled <hidden from users>", "Comment [Is usually used for Vehicle costs and upkeeps]",
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     },
     {
         "name": "Power",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Comment [Is usually used for Vehicle costs and upkeeps]", "Stockpiled <hidden from users>", 
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     },
     {
         "name": "Loyalty",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Comment [each point increases all resources and production by 1%, each negative reduces 2%]", "Stockpiled <hidden from users>", 
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     },
     {
         "name": "Influence",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
-    },
-    {
-        "name": "Biomass",
-        "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Comment [Is usually used for improvement upkeeps and ability costs]", "Stockpiled <hidden from users>", 
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     },
     {
         "name": "Requisition",
         "resourceType": "Strategic",
-        "uniques": ["Will not be displayed in Civilopedia", "Stockpiled", 
-                    "Doesn't generate naturally", "Cannot be traded", "Excluded from map editor"]
+        "uniques": ["Comment [Replaces both ore and Biomass for Space Marines And the Sisters]", "Stockpiled <hidden from users>", 
+                    "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     }
 ]
