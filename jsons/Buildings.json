@@ -10,6 +10,7 @@
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Consumes [-12] [Requisition] <hidden from users>",
                     "Comment [Provides 12 [Requisition for related factions, Biomass for tyranids, extra Gold/Power for Necrons]]",
-					"Instantly consumes [1000] [Golden Age points] <upon turn end>"]
+					"Instantly consumes [1000] [Golden Age points] <upon turn end>",
+					"Provides [-1] [Loyalty] <for every [Population]>"]
 	},
 ]
