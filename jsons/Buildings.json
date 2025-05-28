@@ -2,10 +2,6 @@
     {
 		"name": "Main City",
 		"isNationalWonder": true,
-		"production": 6,
-		"science": 6,
-		"gold": 6,
-		"culture": 6,
 		"cityStrength": 2,
 		"cost": 1,
 		"uniques": ["Indicates the capital city", "Consumes [-12] [Requisition] <hidden from users>",
