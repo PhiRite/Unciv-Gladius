@@ -11,6 +11,17 @@
         ]
     },
     {
+        "name": "Ore Building",
+		"turnsToBuild": 5,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",
+					"Consumes [-6] [Ore] <hidden from users>", "Comment [Produces 6 [Ore]]",
+					"Consumes [1] [Loyalty] <hidden from users>"],
+		"civilopediaText": [
+			{"text": "Provides 6 [Ore]"}
+        ]
+    },
+    {
         "name": "Housing Building",
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
