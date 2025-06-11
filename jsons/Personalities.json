@@ -1,6 +1,7 @@
 [
     {
         "name": "Chapter Master",
+        "preferredVictoryType": "Domination",
         "culture": 0,
         "faith": 0,
         "food": 0,
