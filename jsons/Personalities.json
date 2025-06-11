@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Chapter Master",
+        "culture": 0,
+        "faith": 0,
+        "food": 0,
+        "gold": 0,
+        "happiness": 0,
+        "production": 0,
+        "science": 0,
+        "military": 8,
+        "aggressive": 10,
+        "declareWar": 10,
+        "commerce": 0,
+        "diplomacy": 0,
+        "loyal": 0,
+        "expansion": 7,
+        "civilopediaText": [
+            {
+                "text": "Space Marine Chapter Master, Second only to his Primarch."
+            }
+        ]
+    },
+]
