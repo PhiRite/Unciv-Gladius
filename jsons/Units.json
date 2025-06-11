@@ -1,11 +1,14 @@
 [
     //needed placeholders
-    {
-		"name": "Worker",
+    	{
+		"name": "Warrior",
 		"unitType": "Infantry",
 		"movement": 2,
-		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
-		"cost": 70
+		"strength": 15,
+		"cost": 106,
+		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
+			        "Requires at least [2] population"],
+		"hurryCostModifier": 20
 	},
 	{
 		"name": "Settler",
