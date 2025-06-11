@@ -38,63 +38,63 @@
     },
     {
         "name": "T1 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T2 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T3 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T4 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T5 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T6 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T7 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T8 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
     },
     {
         "name": "T9 Researches",
-        "resourceType": "Strategic",
+        "resourceType": "Luxury",
         "uniques": ["Comment [Used to count current researches on tier]",
                     "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
                     "Cannot be traded", "Excluded from map editor"]
