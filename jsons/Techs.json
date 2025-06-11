@@ -1,0 +1,849 @@
+[
+    {
+		"columnNumber": 0,
+		"era": "Tier 1",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Invasion",
+				"row": 4,
+				"quote": "Reading the histories of the 41st millenium, one might assume that the galaxy only experiences conflict. That's far from the truth -- most civilians of the Imperium live and die in peace. Yet to be conscripted into an Imperial army is almost a guarantee of death in wars against foul creatures far from your homeworld, in order that the majority of the Imperium can continue to exist in peace.",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+    {
+		"columnNumber": 1,
+		"era": "Tier 1",
+		"techCost": 36,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Frag Grenade",
+				"row": 1,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables certain infantry to use fragmentation grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T1 Infantry A",
+				"row": 3,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T1 Infantry B",
+				"row": 5,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T1 Infantry Upgrade",
+				"row": 7,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 2,
+		"era": "Tier 1",
+		"techCost": 36,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Vehicle Production",
+				"row": 1,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables certain infantry to use fragmentation grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T1 vehicle/monster",
+				"row": 3,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T1 Nation Upgrade",
+				"row": 5,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "Special Unit Production",
+				"row": 5,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 3,
+		"era": "Tier 1",
+		"techCost": 36,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "1st Breakthrough",
+				"row": 4,
+                "prerequisites": ["Invasion"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 1 Researches]>"]
+			},
+		]
+	},
+    //tier 2
+    {
+		"columnNumber": 4,
+		"era": "Tier 2",
+		"techCost": 54,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T2 vehicle/monster",
+				"row": 1,
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T2 Infantry",
+				"row": 3,
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T2 Weapon Upgrade",
+				"row": 5,
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "Krak Grenade",
+				"row": 7,
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 5,
+		"era": "Tier 2",
+		"techCost": 54,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Growth Building Unlock",
+				"row": 2,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables certain infantry to use fragmentation grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T2 Nation Upgrade A",
+				"row": 4,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T2 Nation Upgrade B",
+				"row": 6,
+                "prerequisites": ["Invasion"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 6,
+		"era": "Tier 2",
+		"techCost": 36,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "2nd Breakthrough",
+				"row": 4,
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 3
+    {
+		"columnNumber": 7,
+		"era": "Tier 3",
+		"techCost": 77,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "City Expansion 1",
+				"row": 1,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "Loyalty Building Unlock",
+				"row": 3,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T3 Nation Upgrade A",
+				"row": 5,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T3 Nation Upgrade B",
+				"row": 7,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 8,
+		"era": "Tier 3",
+		"techCost": 77,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T3 Infantry",
+				"row": 1,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T3 vehicle/monster",
+				"row": 3,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T3 Weapon Upgrade",
+				"row": 5,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T3 Nation Upgrade C",
+				"row": 7,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 9,
+		"era": "Tier 2",
+		"techCost": 77,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "3rd Breakthrough",
+				"row": 4,
+                "prerequisites": ["2nd Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 4
+    {
+		"columnNumber": 10,
+		"era": "Tier 4",
+		"techCost": 104,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "City Cost Reduction",
+				"row": 1,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T4 Nation Upgrade A",
+				"row": 3,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T4 Nation Upgrade B",
+				"row": 5,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T4 Nation Upgrade C",
+				"row": 7,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 11,
+		"era": "Tier 4",
+		"techCost": 104,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T4 Infantry",
+				"row": 1,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T4 vehicle/monster",
+				"row": 3,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T4 Weapon Upgrade",
+				"row": 5,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "Melta/Haywire Bombs",
+				"row": 7,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 12,
+		"era": "Tier 4",
+		"techCost": 104,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "4th Breakthrough",
+				"row": 4,
+                "prerequisites": ["3rd Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 3 Researches]>"]
+			},
+		]
+	},
+    //Tier 5
+    {
+		"columnNumber": 13,
+		"era": "Tier 5",
+		"techCost": 135,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T5 Weapon Upgrade",
+				"row": 1,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T5 Infantry",
+				"row": 3,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T5 vehicle/monster A",
+				"row": 5,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T5 vehicle/monster B",
+				"row": 7,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 14,
+		"era": "Tier 5",
+		"techCost": 135,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T5 Infantry Upgrade",
+				"row": 2,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T5 Nation Upgrade",
+				"row": 4,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "City Expansion 2",
+				"row": 6,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 15,
+		"era": "Tier 5",
+		"techCost": 135,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "5th Breakthrough",
+				"row": 4,
+                "prerequisites": ["4th Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 4 Researches]>"]
+			},
+		]
+	},
+    //Tier 6
+    {
+		"columnNumber": 16,
+		"era": "Tier 6",
+		"techCost": 171,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T6 Nation Upgrade A",
+				"row": 1,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T6 Nation Upgrade B",
+				"row": 3,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T6 vehicle",
+				"row": 5,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T6 monster",
+				"row": 7,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 17,
+		"era": "Tier 6",
+		"techCost": 171,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T6 Weapon Upgrade A",
+				"row": 2,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T6 Weapon Upgrade B",
+				"row": 6,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 18,
+		"era": "Tier 6",
+		"techCost": 171,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "6th Breakthrough",
+				"row": 4,
+                "prerequisites": ["5th Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 7
+    {
+		"columnNumber": 19,
+		"era": "Tier 7",
+		"techCost": 212,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Aircraft Production Unlock",
+				"row": 1,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T7 Infantry",
+				"row": 3,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T7 Nation Upgrade A",
+				"row": 5,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T7 Nation Upgrade B",
+				"row": 7,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "Enables certain infantry to use krak grenades",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 20,
+		"era": "Tier 7",
+		"techCost": 212,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T7 Weapon Upgrade A",
+				"row": 2,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T7 Weapon Upgrade B",
+				"row": 6,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 21,
+		"era": "Tier 7",
+		"techCost": 212,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "7th Breakthrough",
+				"row": 4,
+                "prerequisites": ["6th Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 8
+    {
+		"columnNumber": 22,
+		"era": "Tier 8",
+		"techCost": 257,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T8 Nation Upgrade A",
+				"row": 2,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T8 Nation Upgrade B",
+				"row": 4,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T8 Infantry",
+				"row": 6,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 23,
+		"era": "Tier 8",
+		"techCost": 257,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T8 Weapon Upgrade A",
+				"row": 1,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T8 Weapon Upgrade B",
+				"row": 3,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T8 Weapon Upgrade C",
+				"row": 5,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T8 Weapon Upgrade D",
+				"row": 7,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 24,
+		"era": "Tier 8",
+		"techCost": 257,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "8th Breakthrough",
+				"row": 4,
+                "prerequisites": ["7th Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 9
+    {
+		"columnNumber": 25,
+		"era": "Tier 9",
+		"techCost": 306,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T9 Vehicle",
+				"row": 2,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T9 Monster",
+				"row": 4,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T9 Aircraft",
+				"row": 6,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 26,
+		"era": "Tier 9",
+		"techCost": 306,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T9 Weapon Upgrade A",
+				"row": 1,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T9 Weapon Upgrade B",
+				"row": 3,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T9 Nation Upgrade A",
+				"row": 5,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T9 Nation Upgrade B",
+				"row": 7,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "Enables Production of X vehicle/monster",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 27,
+		"era": "Tier 9",
+		"techCost": 306,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "9th Breakthrough",
+				"row": 4,
+                "prerequisites": ["8th Breakthrough"],
+				"quote": "You have unlocked the next tier of technologies",
+				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+			},
+		]
+	},
+    //Tier 10
+    {
+		"columnNumber": 28,
+		"era": "Tier 10",
+		"techCost": 360,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "T10 Nation Upgrade A",
+				"row": 1,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "City Creation now costs 50% less",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T10 Nation Upgrade B",
+				"row": 3,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T10 Nation Upgrade C",
+				"row": 5,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+            {
+				"name": "T10 Nation Upgrade D",
+				"row": 7,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "Upgrades Certain Unit Weapons",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 29,
+		"era": "Tier 10",
+		"techCost": 360,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Super Unit Unlock",
+				"row": 4,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "Enables Production of X infantry",
+				"uniques": ["Comment [Add uniques for other faction later]"]
+			},
+		]
+	},
+    {
+		"columnNumber": 30,
+		"era": "Tier 10",
+		"techCost": 360,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "End of all",
+				"row": 4,
+                "prerequisites": ["9th Breakthrough"],
+				"quote": "See for yourself.",
+				"uniques": ["Can be continually researched"],]
+			},
+		]
+	},
+]
