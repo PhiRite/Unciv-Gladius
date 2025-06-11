@@ -35,5 +35,68 @@
         "resourceType": "Strategic",
         "uniques": ["Comment [Replaces both ore and Biomass for Space Marines And the Sisters]", "Stockpiled <hidden from users>", 
                     "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
-    }
+    },
+    {
+        "name": "T1 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T2 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T3 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T4 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T5 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T6 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T7 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T8 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
+    {
+        "name": "T9 Researches",
+        "resourceType": "Strategic",
+        "uniques": ["Comment [Used to count current researches on tier]",
+                    "Not shown on world screen <for [All] Civilizations>", "Doesn't generate naturally",
+                    "Cannot be traded", "Excluded from map editor"]
+    },
 ]
