@@ -4,6 +4,15 @@
                 "[+1]% [Production] [in your cities] <for every [1] [Loyalty]>",
                 "[-2]% [Production] [in your cities] <for every [-1] [Loyalty]>",
                 "Quantity of strategic resources produced by the empire +[+1]% <for every [1] [Loyalty]>",
-                "Quantity of strategic resources produced by the empire +[-2]% <for every [-1] [Loyalty]>"],
+                "Quantity of strategic resources produced by the empire +[-2]% <for every [-1] [Loyalty]>",
+                "Provides [1] [Tier 1 Researches] <upon discovering [Tier 1] technology>",
+                "Provides [1] [Tier 2 Researches] <upon discovering [Tier 2] technology>",
+                "Provides [1] [Tier 3 Researches] <upon discovering [Tier 3] technology>",
+                "Provides [1] [Tier 4 Researches] <upon discovering [Tier 4] technology>",
+                "Provides [1] [Tier 5 Researches] <upon discovering [Tier 5] technology>",
+                "Provides [1] [Tier 6 Researches] <upon discovering [Tier 6] technology>",
+                "Provides [1] [Tier 7 Researches] <upon discovering [Tier 7] technology>",
+                "Provides [1] [Tier 8 Researches] <upon discovering [Tier 8] technology>",
+                "Provides [1] [Tier 9 Researches] <upon discovering [Tier 9] technology>",],
     "unitUniques": ["[+800]% Strength <when defending>"]
 }
