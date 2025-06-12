@@ -55,8 +55,8 @@
 				"name": "Vehicle Production Unlock",
 				"row": 2,
                 "prerequisites": ["Invasion"],
-				"quote": "Enables certain infantry to use fragmentation grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Enables Vehicle production building",
+				"uniques": ["Comment [Enables Vehicle production building]"]
 			},
             {
 				"name": "T1 Vehicle/Monster",
@@ -69,8 +69,8 @@
 				"name": "T1 Nation Upgrade",
 				"row": 6,
                 "prerequisites": ["Invasion"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Grants a Nation Specific Upgrade",
+				"uniques": ["Comment [Enables the Orbital Scan Ability] <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -147,7 +147,8 @@
 				"row": 4,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Infantry Get 2 Armor Penetration <for [Space Marines] civilizations>",
+							"[+16]% strength <when attacking> <for [{Infantry} {Space Marines}] units>"]
 			},
             {
 				"name": "T2 Nation Upgrade B",
@@ -238,7 +239,8 @@
 				"row": 5,
                 "prerequisites": ["2nd Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Bolters gain 2 armor penetration]",
+							"Comment [Add shit later]"]
 			},
             {
 				"name": "T3 Nation Upgrade C",
@@ -285,14 +287,16 @@
 				"row": 3,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Increased damage for all devastator variants] <for [Space Marines] civilizations>",
+							"Comment [Add shit later]"]
 			},
             {
 				"name": "T4 Nation Upgrade B",
 				"row": 5,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows tacticals to become primaris] <for [Space Marines] civilizations>",
+							"Comment [Add shit later]"]
 			},
             {
 				"name": "T4 Nation Upgrade C",
@@ -329,7 +333,7 @@
 				"row": 5,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Bolter Gain ]"]
 			},
             {
 				"name": "Melta Bombs",
@@ -369,7 +373,7 @@
 				"row": 1,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Increase bolters base damage] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T5 Infantry",
@@ -413,7 +417,8 @@
 				"row": 4,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows Devastators to become primaris] <for [Space Marines] civilizations>",
+							"Comment [Add shit later]"]
 			},
             {
 				"name": "City Expansion 2",
@@ -453,14 +458,17 @@
 				"row": 1,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Predators and Land Raiders now have reduced movement penalty] <for [Space Marines] Civilization>",
+							"Ignores terrain cost <for [Predator] Units>",
+							"Ignores terrain cost <for [Land Raider] Units>",]
 			},
             {
 				"name": "T6 Nation Upgrade B",
 				"row": 3,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [All vehicles gain 2 Armor] <for [Space Marines] Civilization>",
+							"[+16]% strength <when defending> <for [{Vehicle} {Space Marines}] units>"]
 			},
             {
 				"name": "T6 Vehicle",
@@ -490,7 +498,8 @@
 				"row": 2,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows all vehicles to use Hunter Killer missiles] <for [Space Marines] Civilization>",
+							"[This Unit] gains the [Arm Hunter Killer] <for [{Vehicle} {Space Marines}] units>",]
 			},
             {
 				"name": "T6 Weapon Upgrade B",
@@ -544,7 +553,9 @@
 				"row": 5,
                 "prerequisites": ["6th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows all units to use drop pods to go anywhere on the map for 20 Influence] <for [Space Marines] civilizations>",
+							"[This Unit] gains the [Drop Pod] promotion <for [Space Marines] units>",
+							"[This Unit] loses the [Drop Pod] <upon gaining the [Upgraded Drop Pod] promotion> <for [Space Marines] units>",]
 			},
             {
 				"name": "T7 Nation Upgrade B",
@@ -607,9 +618,7 @@
 				"row": 2,
                 "prerequisites": ["7th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Predators and Land Raiders now have reduced movement penalty]",
-							"Ignores terrain cost <for [Predator] Units>",
-							"Ignores terrain cost <for [Land Raider] Units>",]
+				"uniques": ["Comment []",]
 			},
             {
 				"name": "T8 Nation Upgrade B",
@@ -713,7 +722,7 @@
 				"row": 6,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows Storm Raven Production] <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -729,7 +738,7 @@
 				"row": 1,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Las weapons gain 2 armor penetration] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Weapon Upgrade B",
@@ -743,14 +752,15 @@
 				"row": 5,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Aircraft gain 2 armor] <for [Space Marines] civilizations>",
+							"[+16]% strength <when defending> <for [{Aircraft} {Space Marines}] units>"]
 			},
             {
 				"name": "T9 Nation Upgrade B",
 				"row": 7,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Drop pods now allow units to move farther after dropping] <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -783,28 +793,29 @@
 				"row": 1,
                 "prerequisites": ["9th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Enables creation of Aquila Macro Cannons] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T10 Nation Upgrade B",
 				"row": 3,
                 "prerequisites": ["9th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows Fortress towers to use Krak Storm Missiles] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T10 Nation Upgrade C",
 				"row": 5,
                 "prerequisites": ["9th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Adds Twin bolters to Storm Ravens] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T10 Nation Upgrade D",
 				"row": 7,
                 "prerequisites": ["9th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Removes the influence cost of drop pods] <for [Space Marines] civilizations>",
+							"[This Unit] gains the [Upgraded Drop Pod] promotion <for [Space Marines] units>",]
 			},
 		]
 	},
