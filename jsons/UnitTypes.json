@@ -11,7 +11,8 @@
         "name": "Skimmer",
         "movementType": "Land",
         //to add: [This Unit] loses [1] movement <upon entering a [insert forests/ruins/hills :D] tile>
-        "uniques": ["May travel on Water tiles without embarking"]
+        "uniques": ["May travel on Water tiles without embarking",
+                    "[This Unit] loses [1] movement <upon entering a [{Hill} {Forest} {Imperial Ruins}] tile>"]
     },
     {
         "name": "Aircraft",
