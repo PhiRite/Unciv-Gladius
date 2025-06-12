@@ -87,7 +87,7 @@
         ]
     },
     {
-        "name": "Infantry Building",
+        "name": "Infantry Expansion",
 		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
         "science": 2,
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "name": "Vehicle Building",
+        "name": "Vehicle Expansion",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
@@ -115,7 +115,7 @@
         ]
     },
 	{
-        "name": "Monster Building",
+        "name": "Monster Expansion",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
@@ -129,7 +129,7 @@
         ]
     },
 	{
-        "name": "Special Unit Building",
+        "name": "Special Unit Expansion",
 		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
@@ -143,7 +143,7 @@
         ]
     },
     {
-        "name": "Aircraft Building",
+        "name": "Aircraft Expansion",
 		"turnsToBuild": 9,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
