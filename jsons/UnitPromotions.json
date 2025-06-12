@@ -212,6 +212,23 @@
     
     
     //space marines
+	{
+		"name": "Drop Pod",
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory <costs [20] [Influence]>",]
+	},
+	{
+		"name": "Upgraded Drop Pod",
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory",]
+	},
+	{
+		"name": "Arm Hunter Killer",
+		"uniques": ["[This Unit] gains the [Hunter killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]>",
+					"This Unit] gains the [Cooldown] status for [10] turn(s)"]
+	},
+	{
+		"name": "Hunter Killer Strike",
+		"uniques": ["[1] free [HunterKillerMissile] units appear"]
+	},
     {
         "name": "BoltGun",
         "uniques": ["Comment [Fires 1 round(s) per Model, each dealing 1-3 damage.]", 
