@@ -226,7 +226,7 @@
         "rangedstrength": 36,
         "range": 1,
         "uniqueTo": "Space Marines",
-		"requiredTech": "T2 Vehicle",
+		"requiredTech": "T6 Vehicle",
         "uniques": ["Cannot be purchased", "Consumes [3] [Requisition]", "Costs [60] [Requisition]",
                     "[This Unit] gains the [8-Armor] promotion",
 					"[This Unit] gains the [MultiMelta] promotion",
