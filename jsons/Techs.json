@@ -23,28 +23,21 @@
 		"techs": [
 			{
 				"name": "Frag Grenade",
-				"row": 1,
+				"row": 2,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables certain infantry to use fragmentation grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [[Tactical Space Marine] and [Devastator Space Marine] gain access to [FragGrenade]] <for [Space Marines] Civilizations>"]
 			},
             {
 				"name": "T1 Infantry A",
-				"row": 3,
+				"row": 4,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
 				"name": "T1 Infantry B",
-				"row": 5,
-                "prerequisites": ["Invasion"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
-			},
-            {
-				"name": "T1 Infantry Upgrade",
-				"row": 7,
+				"row": 6,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Add uniques for other faction later]"]
@@ -59,29 +52,22 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Vehicle Production",
-				"row": 1,
+				"name": "Vehicle Production Unlock",
+				"row": 2,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables certain infantry to use fragmentation grenades",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T1 vehicle/monster",
-				"row": 3,
+				"name": "T1 Vehicle/Monster",
+				"row": 4,
                 "prerequisites": ["Invasion"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
 				"name": "T1 Nation Upgrade",
-				"row": 5,
-                "prerequisites": ["Invasion"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
-			},
-            {
-				"name": "Special Unit Production",
-				"row": 5,
+				"row": 6,
                 "prerequisites": ["Invasion"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Add uniques for other faction later]"]
@@ -113,10 +99,10 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "T2 vehicle/monster",
+				"name": "T2 Vehicle/Monster",
 				"row": 1,
                 "prerequisites": ["1st Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
@@ -200,7 +186,7 @@
 				"name": "City Expansion 1",
 				"row": 1,
                 "prerequisites": ["2nd Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
@@ -241,10 +227,10 @@
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T3 vehicle/monster",
+				"name": "T3 Vehicle/Monster",
 				"row": 3,
                 "prerequisites": ["2nd Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
@@ -332,10 +318,10 @@
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T4 vehicle/monster",
+				"name": "T4 Vehicle/Monster",
 				"row": 3,
                 "prerequisites": ["3rd Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
@@ -346,7 +332,7 @@
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "Melta/Haywire Bombs",
+				"name": "Melta Bombs",
 				"row": 7,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "Enables Production of X infantry",
@@ -393,14 +379,14 @@
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T5 vehicle/monster A",
+				"name": "T5 Vehicle/Monster A",
 				"row": 5,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T5 vehicle/monster B",
+				"name": "T5 Vehicle/Monster B",
 				"row": 7,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Enables certain infantry to use krak grenades",
@@ -426,7 +412,7 @@
 				"name": "T5 Nation Upgrade",
 				"row": 4,
                 "prerequisites": ["4th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
@@ -477,14 +463,14 @@
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T6 vehicle",
+				"name": "T6 Vehicle",
 				"row": 5,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
-				"name": "T6 monster",
+				"name": "T6 Monster",
 				"row": 7,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables certain infantry to use krak grenades",
@@ -510,7 +496,7 @@
 				"name": "T6 Weapon Upgrade B",
 				"row": 6,
                 "prerequisites": ["5th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
 		]
@@ -587,7 +573,7 @@
 				"name": "T7 Weapon Upgrade B",
 				"row": 6,
                 "prerequisites": ["6th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
 		]
@@ -621,7 +607,9 @@
 				"row": 2,
                 "prerequisites": ["7th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Predators and Land Raiders now have reduced movement penalty]",
+							"Ignores terrain cost <for [Predator] Units>",
+							"Ignores terrain cost <for [Land Raider] Units>",]
 			},
             {
 				"name": "T8 Nation Upgrade B",
@@ -635,7 +623,7 @@
 				"row": 6,
                 "prerequisites": ["7th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows Production of Devastator Centurions] <for [Space Marines] Civilizations>"]
 			},
 		]
 	},
@@ -651,28 +639,34 @@
 				"row": 1,
                 "prerequisites": ["7th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Increases penetration of Explosive weapons by 2] <for [Space Marines] Civilizations>",]
 			},
             {
 				"name": "T8 Weapon Upgrade B",
 				"row": 3,
                 "prerequisites": ["7th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Enables Production of X Vehicle/Monster",
+				"uniques": ["Comment [Adds Heavy Bolters for [Fortress Tower] and [AquilaMacroCannon]] <for [Space Marines] Civilizations>"]
 			},
             {
-				"name": "T8 Weapon Upgrade C",
+				"name": "T8 Unit Upgrade A",
 				"row": 5,
                 "prerequisites": ["7th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Enables Production of X Vehicle/Monster",
+				"uniques": ["Comment [Increases the damage reduction of Infantry units] <for [Space Marines] Civilizations>",
+							"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for [{Space Marines} {Infantry}] units> <hidden from users>",
+		                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for [{Space Marines} {Infantry}] units> <hidden from users>",
+		                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for [{Space Marines} {Infantry}] units> <hidden from users>"]
 			},
             {
-				"name": "T8 Weapon Upgrade D",
+				"name": "T8 Unit Upgrade B",
 				"row": 7,
                 "prerequisites": ["7th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Enables Production of X Vehicle/Monster",
+				"uniques": ["Comment [Increases the damage reduction of Vehicle units] <for [Space Marines] Civilizations>",
+							"[This Unit] heals [1] HP <upon losing at least [1] HP in a single attack> <for [{Space Marines} {Vehicle}] units> <hidden from users>",
+		                    "[This Unit] heals [1] HP <upon losing at least [2] HP in a single attack> <for [{Space Marines} {Vehicle}] units> <hidden from users>",
+		                    "[This Unit] heals [1] HP <upon losing at least [3] HP in a single attack> <for [{Space Marines} {Vehicle}] units> <hidden from users>"]
 			},
 		]
 	},
@@ -741,21 +735,21 @@
 				"name": "T9 Weapon Upgrade B",
 				"row": 3,
                 "prerequisites": ["8th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
 				"name": "T9 Nation Upgrade A",
 				"row": 5,
                 "prerequisites": ["8th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
             {
 				"name": "T9 Nation Upgrade B",
 				"row": 7,
                 "prerequisites": ["8th Breakthrough"],
-				"quote": "Enables Production of X vehicle/monster",
+				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
 		]
