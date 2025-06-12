@@ -335,6 +335,23 @@
 					"[This Unit] gains the [HeavyBolter] promotion <after discovering [T8 Weapon Upgrade B]>",],
         "attackSound": "shot"
     },
+	{
+        "name": "HunterKillerMissile",
+        "unitType": "Missile",
+        "cost": 0,
+        "strength": 16,
+		"rangedStrength": 16,
+        "range": 12,
+        "uniques": ["Self-destructs when attacking <hidden from users>", "Cannot be purchased", "Unbuildable",
+					"[+48]% Strength <when attacking> <hidden from users>", 
+					"Comment [Deals 8 damage]", "Comment [Has 6 Armor penetration]",
+					"Comment [Deals Double damage against vehicles, skimmers, and aircraft]",
+                    "[Target Unit] takes [8] damage <upon damaging a [All] unit> <hidden from users>",
+					"[Target Unit] takes [8] damage <upon damaging a [non-Infantry] unit> <hidden from users>",
+					"Comment [Missile Disappears on turn end]",
+					"[This Unit] takes [200] damage <uponturn end> <hidden from users>"],
+		"attackSound": "missile"
+    },
     
     
 ]
