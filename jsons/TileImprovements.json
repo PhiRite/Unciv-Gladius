@@ -95,6 +95,7 @@
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
                     "Comment [Produces 6 [Requisition]]",
                     "Consumes [-6] [Requisition] <hidden from users>",
+					"Consumes [-2] [Science] <hidden from users>",
 					"Consumes [1] [Loyalty] <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Allows Building Infantry and Produces 6 [Requisition], 2 [Research], and 2 [Production]"}
@@ -108,7 +109,7 @@
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
                     "Comment [Produces 6 [Requisition], 2 [Science], and 2 [Production]]",
                     "Consumes [-6] [Requisition] <hidden from users>",
-					"Consumes [2] [Science] <hidden from users>",
+					"Consumes [-2] [Science] <hidden from users>",
 					"Consumes [1] [Loyalty] <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Allows Building vehicles and Produces 6 [Requisition] 2 [Science], and 2 [Production]"}
@@ -122,7 +123,7 @@
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
                     "Comment [Produces 6 [Requisition], 2 [Science], and 2 [Production]]",
                     "Consumes [-6] [Requisition] <hidden from users>",
-					"Consumes [2] [Science] <hidden from users>",
+					"Consumes [-2] [Science] <hidden from users>",
 					"Consumes [1] [Loyalty] <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Allows Building vehicles and Produces 6 [Requisition] 2 [Science], and 2 [Production]"}
@@ -136,7 +137,7 @@
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
                     "Comment [Produces 6 [Requisition], 2 [Science], and 2 [Production]]",
                     "Consumes [-6] [Requisition] <hidden from users>",
-					"Consumes [2] [Science] <hidden from users>",
+					"Consumes [-2] [Science] <hidden from users>",
 					"Consumes [1] [Loyalty] <hidden from users>"],
 		"civilopediaText": [
 			{"text": "Allows Building vehicles and Produces 6 [Requisition] 2 [Science], and 2 [Production]"}
