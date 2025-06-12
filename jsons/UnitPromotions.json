@@ -223,7 +223,8 @@
 	{
 		"name": "Arm Hunter Killer",
 		"uniques": ["[This Unit] gains the [Hunter killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]>",
-					"This Unit] gains the [Cooldown] status for [10] turn(s)"]
+					"This Unit] gains the [Cooldown] status for [10] turn(s)",
+					"Can carry [1] [Missile] units"]
 	},
 	{
 		"name": "Hunter Killer Strike",
