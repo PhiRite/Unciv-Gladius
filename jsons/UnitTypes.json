@@ -29,4 +29,8 @@
         "movementType": "Land",
         "uniques": ["[+2] Sight"]
     },
+    {
+        "name": "Missile",
+        "movementType": "Air",
+    },
 ]
