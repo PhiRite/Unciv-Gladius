@@ -20,6 +20,18 @@
 		"hurryCostModifier": 20
 	},
     // Space Marines
+	{
+		"name": "Orbital Scanner",
+        "unitType": "Infantry",
+        "cost": 36,
+        "hurryCostModifier": 100,
+        "movement": 300,
+        "uniqueTo": "Space Marines",
+		"requiredTech": "T1 Nation Upgrade",
+        "uniques": ["Unbuildable", "Costs [20] [Influence]", "Uncapturable", "Limited to [1] per Civilization",
+					"[This Unit] loses [300] movement <upon entering a [Foreign Land] tile>",
+					"[This Unit] takes [200] damage <uponturn end> <hidden from users>"]
+	},
     {
         "name": "Tactical Space Marine",
         "unitType": "Infantry",
@@ -349,7 +361,7 @@
                     "[Target Unit] takes [8] damage <upon damaging a [All] unit> <hidden from users>",
 					"[Target Unit] takes [8] damage <upon damaging a [non-Infantry] unit> <hidden from users>",
 					"Comment [Missile Disappears on turn end]",
-					"[This Unit] takes [200] damage <uponturn end> <hidden from users>"],
+					"[This Unit] takes [200] damage <upon turn end> <hidden from users>"],
 		"attackSound": "missile"
     },
     
