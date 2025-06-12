@@ -80,7 +80,7 @@
 		"requiredTech": "T2 Infantry",
         "replaces": "Settler",
         "uniques": ["Cannot be purchased", "Consumes [2] [Requisition]", "Costs [20] [Requisition]", "Uncapturable", "Only available <in cities with a [Infantry Building]>",
-                    "Can build [Land] improvements on tiles", "Founds a new city <for all movement> <if [Capital] is not constructed>",
+                    "Can build [Land] improvements on tiles", "Founds a new city <for all movement> <if [Main City] is not constructed>",
                     "[This Unit] gains the [1-Model] promotion <hidden from users>"]
     },
     {
