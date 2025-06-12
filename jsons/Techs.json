@@ -251,7 +251,7 @@
 	},
     {
 		"columnNumber": 9,
-		"era": "Tier 2",
+		"era": "Tier 3",
 		"techCost": 77,
 		"buildingCost": 40,
 		"wonderCost": 185,
@@ -261,7 +261,7 @@
 				"row": 4,
                 "prerequisites": ["2nd Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 3 Researches]>"]
 			},
 		]
 	},
@@ -352,7 +352,7 @@
 				"row": 4,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 3 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 4 Researches]>"]
 			},
 		]
 	},
@@ -436,7 +436,7 @@
 				"row": 4,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 4 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 5 Researches]>"]
 			},
 		]
 	},
@@ -513,7 +513,7 @@
 				"row": 4,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 6 Researches]>"]
 			},
 		]
 	},
@@ -590,7 +590,7 @@
 				"row": 4,
                 "prerequisites": ["6th Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 7 Researches]>"]
 			},
 		]
 	},
@@ -682,7 +682,7 @@
 				"row": 4,
                 "prerequisites": ["7th Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 8 Researches]>"]
 			},
 		]
 	},
@@ -766,7 +766,7 @@
 				"row": 4,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "You have unlocked the next tier of technologies",
-				"uniques": ["Only available <when above [1] [Tier 2 Researches]>"]
+				"uniques": ["Only available <when above [1] [Tier 9 Researches]>"]
 			},
 		]
 	},
