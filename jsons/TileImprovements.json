@@ -171,4 +171,18 @@
 			{"text": "Allows Building Aircraft,Produces 3 [Requisition], 3 [Influence], and 2 [Production]"}
         ]
     },
+
+	//extras
+	{
+		"name": "City center",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Unpillagable", "Irremovable", "Unbuildable",
+					"Ensures a minimum tile yield of [+2 Food, +1 Production]"],
+		"civilopediaText": [
+			{"text": "Marks the center of a city"},
+			{"text": "Appearance changes with the technological era of the owning civilization"}]
+	},
+	//replace barbarians with the webway gates, smth smth webway will transform the ground to allow eldar to build there? first builder of eldar will also be able to build first city anywhere
+	//ancient ruin logic will be used for the vaul stuff, the buffs will be shown in the world page
+	//also try terrain magic for the necrons
 ]
