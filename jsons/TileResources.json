@@ -20,8 +20,8 @@
     },
     {
         "name": "Loyalty",
-        "resourceType": "Strategic",
-        "uniques": ["Comment [each point increases all resources and production by 1%, each negative reduces 2%]", "Stockpiled <hidden from users>", 
+        "resourceType": "Bonus",
+        "uniques": ["Comment [each point increases all resources and production by 1%, each negative reduces 2%]",
                     "Doesn't generate naturally <hidden from users>", "Cannot be traded <hidden from users>", "Excluded from map editor <hidden from users>"]
     },
     {
