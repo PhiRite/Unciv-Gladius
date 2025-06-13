@@ -213,21 +213,38 @@
     
     //space marines
 	{
+		"name": "Activate Drop Pod",
+		"uniques": ["Comment [Allows this unit to use drop pod]",
+					"[This Unit] gains the [Drop Pod] status for [1] turns(s) <costs [20] [Influence]> <after discovering [T7 Nation Upgrade A]>",
+					"[This Unit] gains the [Upgraded Drop Pod] Promotion <after discovering [T10 Nation Upgrade D]>",
+					"[This Unit] loses the [Drop Pod] Promotion <upon gaining the [Upgraded Drop Pod] promotion>"]
+	},
+	{
 		"name": "Drop Pod",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory <costs [20] [Influence]>",]
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory <costs [20] [Influence]>",
+					"[1] additional attacks per turn <after discovering [T9 Nation Upgrade B]>",
+					"[2] Movement <after discovering [T9 Nation Upgrade B]>"]
 	},
 	{
 		"name": "Upgraded Drop Pod",
-		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory",]
+		"uniques": ["May Paradrop up to [300] tiles from inside friendly territory",
+					"[1] additional attacks per turn <after discovering [T9 Nation Upgrade B]>",
+					"[2] Movement <after discovering [T9 Nation Upgrade B]>"]
 	},
 	{
-		"name": "Arm Hunter Killer",
-		"uniques": ["[This Unit] gains the [Hunter killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]>",
-					"This Unit] gains the [Cooldown] status for [10] turn(s)",
+		"name": "Arm Missile",
+		"uniques": ["[This Unit] gains the [Hunter Killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]> <for [Vehicle] units>",
+					"This Unit] gains the [Cooldown] status for [10] turn(s) <upon gaining the [Hunter Killer Strike] status>",
+					"[This Unit] gains the [Krak Storm Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]> <for [Stationary] units>",
+					"This Unit] gains the [Cooldown] status for [5] turn(s) <upon gaining the [Krak Storm Strike] status>",
 					"Can carry [1] [Missile] units"]
 	},
 	{
 		"name": "Hunter Killer Strike",
+		"uniques": ["[1] free [HunterKillerMissile] units appear"]
+	},
+	{
+		"name": "Krak Storm Strike",
 		"uniques": ["[1] free [HunterKillerMissile] units appear"]
 	},
     {
