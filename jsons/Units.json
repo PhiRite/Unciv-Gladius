@@ -30,8 +30,7 @@
 		"requiredTech": "T1 Nation Upgrade",
         "uniques": ["Unbuildable", "Costs [20] [Influence]", "Uncapturable", "Limited to [1] per Civilization",
 					"[This Unit] loses [300] movement <upon entering a [Foreign Land] tile>",
-					"[This Unit] takes [200] damage <uponturn end> <hidden from users>",
-					"Only available <in cities with a [buildingFilter]>"]
+					"[This Unit] takes [200] damage <uponturn end> <hidden from users>",]
 	},
     {
         "name": "Tactical Space Marine",
