@@ -76,13 +76,5 @@
 					"Consumes [-3] [Influence] <hidden from users>",
 					"Consumes [1] [Loyalty] <hidden from users>"]
 	},
-	{
-		"name": "City center",
-		"terrainsCanBeBuiltOn": ["Land"],
-		"uniques": ["Unpillagable", "Irremovable", "Unbuildable",
-					"Ensures a minimum tile yield of [+2 Food, +1 Production]"],
-		"civilopediaText": [
-			{"text": "Marks the center of a city"},
-			{"text": "Appearance changes with the technological era of the owning civilization"}]
-	},
+
 ]
