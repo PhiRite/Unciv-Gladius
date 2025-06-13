@@ -3,6 +3,10 @@
         "name": "Cooldown",
 		"uniques": ["Comment [Skill is in cooldown]"]
     },
+	{
+        "name": "Missile Cooldown",
+		"uniques": ["Comment [Skill is in cooldown]"]
+    },
     {
         "name": "1-Model",
         "uniques": ["Comment [This unit currently has this many Model(s)]",
@@ -233,10 +237,10 @@
 	},
 	{
 		"name": "Arm Missile",
-		"uniques": ["[This Unit] gains the [Hunter Killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]> <for [Vehicle] units>",
-					"This Unit] gains the [Cooldown] status for [10] turn(s) <upon gaining the [Hunter Killer Strike] status>",
-					"[This Unit] gains the [Krak Storm Strike] status for [1] turn(s) <for [0] movement> <for units without [Cooldown]> <for [Stationary] units>",
-					"This Unit] gains the [Cooldown] status for [5] turn(s) <upon gaining the [Krak Storm Strike] status>",
+		"uniques": ["[This Unit] gains the [Hunter Killer Strike] status for [1] turn(s) <for [0] movement> <for units without [Missile Cooldown]> <for [Vehicle] units>",
+					"This Unit] gains the [Missile Cooldown] status for [10] turn(s) <upon gaining the [Hunter Killer Strike] status>",
+					"[This Unit] gains the [Krak Storm Strike] status for [1] turn(s) <for [0] movement> <for units without [Missile Cooldown]> <for [Stationary] units>",
+					"This Unit] gains the [Missile Cooldown] status for [5] turn(s) <upon gaining the [Krak Storm Strike] status>",
 					"Can carry [1] [Missile] units"]
 	},
 	{
