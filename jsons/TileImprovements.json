@@ -1,7 +1,19 @@
 [
+	{
+        "name": "Expand city",
+		"turnsToBuild": 3,
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": ["Gain control over [All] tiles in a [0]-tile radius",
+					"Only Available <within [2] tiles of a [City center]> <after discovering [City Expansion 1]>",
+					"Only Available <within [3] tiles of a [City center]> <after discovering [City Expansion 2]>",
+					"Only Available <within [4] tiles of a [City center]> <after discovering [T8 Nation Upgrade A]> <for [Space Marines] civilizations>",],
+		"civilopediaText": [
+			{"text": "Used to Expand your cities, certain nations gain farther expansion ranges"}
+        ]
+    },
     {
         "name": "Power Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",
 					"Consumes [-6] [Power] <hidden from users>", "Comment [Produces 6 [Power]]",
@@ -12,7 +24,7 @@
     },
     {
         "name": "Ore Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [1] [Requisition]", "Costs [30] [Requisition]",
 					"Consumes [-6] [Ore] <hidden from users>", "Comment [Produces 6 [Ore]]",
@@ -23,7 +35,7 @@
     },
     {
         "name": "Housing Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"techRequired": "Growth Building Unlock",
         "food": 6,
@@ -35,7 +47,7 @@
     },
 	{
         "name": "Biomass Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
 					"Consumes [-6] [Biomass] <hidden from users>", "Comment [Produces 6 [Biomass]]",
@@ -46,7 +58,7 @@
     },
     {
         "name": "Influence Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [1] [Power]", "Costs [30] [Requisition]",
 					"Consumes [-6] [Influence] <hidden from users>", "Comment [Produces 6 [Influence]]",
@@ -57,7 +69,7 @@
     },
     {
         "name": "Loyalty Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"techRequired": "Loyalty Building Unlock",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [2] [Influnce]", "Costs [50] [Requisition]",
@@ -68,7 +80,7 @@
     },
     {
         "name": "Requisition Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
                     "Comment [Produces 6 [Requisition]]",
@@ -79,7 +91,7 @@
     },
     {
         "name": "Research Building",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
         "science": 6,
 		"uniques": ["Consumes [1] [Gold]", "Costs [30] [Requisition]",
@@ -90,7 +102,7 @@
     },
     {
         "name": "Infantry Expansion",
-		"turnsToBuild": 5,
+		"turnsToBuild": 3,
 		"terrainsCanBeBuiltOn": ["Land"],
         "science": 2,
         "production": 2,
@@ -105,7 +117,7 @@
     },
     {
         "name": "Vehicle Expansion",
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
@@ -119,7 +131,7 @@
     },
 	{
         "name": "Monster Expansion",
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
@@ -133,7 +145,7 @@
     },
 	{
         "name": "Special Unit Expansion",
-		"turnsToBuild": 7,
+		"turnsToBuild": 5,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
 		"uniques": ["Consumes [2] [Power]", "Costs [50] [Requisition]",
@@ -147,7 +159,7 @@
     },
     {
         "name": "Aircraft Expansion",
-		"turnsToBuild": 9,
+		"turnsToBuild": 7,
 		"terrainsCanBeBuiltOn": ["Land"],
         "production": 2,
 		"uniques": ["Consumes [3] [Power]", "Costs [80] [Requisition]",
