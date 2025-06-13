@@ -138,14 +138,14 @@
 			{
 				"name": "Growth Building Unlock",
 				"row": 2,
-                "prerequisites": ["Invasion"],
-				"quote": "Enables certain infantry to use fragmentation grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+                "prerequisites": ["1st Breakthrough"],
+				"quote": "Allows the building of housing tiles",
+				"uniques": ["Comment [Allows the building of housing tiles]"]
 			},
             {
 				"name": "T2 Nation Upgrade A",
 				"row": 4,
-                "prerequisites": ["Invasion"],
+                "prerequisites": ["1st Breakthrough"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Infantry Get 2 Armor Penetration <for [Space Marines] civilizations>",
 							"[+16]% strength <when attacking> <for [{Infantry} {Space Marines}] units>"]
@@ -153,7 +153,7 @@
             {
 				"name": "T2 Nation Upgrade B",
 				"row": 6,
-                "prerequisites": ["Invasion"],
+                "prerequisites": ["1st Breakthrough"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Add uniques for other faction later]"]
 			},
@@ -187,15 +187,15 @@
 				"name": "City Expansion 1",
 				"row": 1,
                 "prerequisites": ["2nd Breakthrough"],
-				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Your cities can now expand 1 tile",
+				"uniques": ["Comment [Allows you to expand your city teritory by 1 tile]"]
 			},
             {
 				"name": "Loyalty Building Unlock",
 				"row": 3,
                 "prerequisites": ["2nd Breakthrough"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Allows the building of loyalty tiles",
+				"uniques": ["Comment [Allows the building of loyalty tiles]"]
 			},
             {
 				"name": "T3 Nation Upgrade A",
@@ -239,8 +239,8 @@
 				"row": 5,
                 "prerequisites": ["2nd Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Bolters gain 2 armor penetration]",
-							"Comment [Add shit later]"]
+				"uniques": ["Comment [Bolters gain 2 armor penetration] <for [Space Marines] civilization>",
+							"[+16]% strength <when attacking> <for [{Bolter Weapon} {Space Marines}] units>"]
 			},
             {
 				"name": "T3 Nation Upgrade C",
@@ -287,8 +287,7 @@
 				"row": 3,
                 "prerequisites": ["3rd Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Increased damage for all devastator variants] <for [Space Marines] civilizations>",
-							"Comment [Add shit later]"]
+				"uniques": ["Comment [Increased damage for all devastator variants by 2 per model] <for [Space Marines] civilizations>",]
 			},
             {
 				"name": "T4 Nation Upgrade B",
@@ -372,29 +371,36 @@
 				"name": "T5 Weapon Upgrade",
 				"row": 1,
                 "prerequisites": ["4th Breakthrough"],
-				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Increase bolters base damage] <for [Space Marines] civilizations>"]
+				"quote": "Weapon Upgraded",
+				"uniques": ["Comment [Increase bolters base damage by 2 per model] <for [Space Marines] civilizations>",
+							"[Target Unit] takes [2] damage <upon damaging a [All] unit> <for [{1-Model} {Space Marines} {Bolter Weapon}] units> <hidden from users>",
+							"[Target Unit] takes [2] damage <upon damaging a [All] unit> <for [{2-Model} {Space Marines} {Bolter Weapon}] units> <hidden from users>",
+							"[Target Unit] takes [2] damage <upon damaging a [All] unit> <for [{3-Model} {Space Marines} {Bolter Weapon}] units> <hidden from users>",
+							"[Target Unit] takes [2] damage <upon damaging a [All] unit> <for [{4-Model} {Space Marines} {Bolter Weapon}] units> <hidden from users>",
+							"[Target Unit] takes [2] damage <upon damaging a [All] unit> <for [{5-Model} {Space Marines} {Bolter Weapon}] units> <hidden from users>",]
 			},
             {
 				"name": "T5 Infantry",
 				"row": 3,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T5 Vehicle/Monster A",
 				"row": 5,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Enables production of Predators] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T5 Vehicle/Monster B",
 				"row": 7,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Enables certain infantry to use krak grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -410,7 +416,8 @@
 				"row": 2,
                 "prerequisites": ["4th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T5 Nation Upgrade",
@@ -424,8 +431,10 @@
 				"name": "City Expansion 2",
 				"row": 6,
                 "prerequisites": ["4th Breakthrough"],
-				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "Your cities can now expand 1 tile",
+				"uniques": ["Comment [Allows you to expand your city teritory by 1 tile]",
+							"Comment [Only available after getting the previous expansion]",
+							"Only available <after discovering [City Exapnsion 1]>"]
 			},
 		]
 	},
@@ -475,14 +484,15 @@
 				"row": 5,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Upgrades Certain Unit Weapons",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Enables production of Dreadnoughts] <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T6 Monster",
 				"row": 7,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables certain infantry to use krak grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -499,14 +509,15 @@
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables Production of X infantry",
 				"uniques": ["Comment [Allows all vehicles to use Hunter Killer missiles] <for [Space Marines] Civilization>",
-							"[This Unit] gains the [Arm Hunter Killer] <for [{Vehicle} {Space Marines}] units>",]
+							"[This Unit] gains the [Arm Missile] <for [{Vehicle} {Space Marines}] units>",]
 			},
             {
 				"name": "T6 Weapon Upgrade B",
 				"row": 6,
                 "prerequisites": ["5th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -562,7 +573,8 @@
 				"row": 7,
                 "prerequisites": ["6th Breakthrough"],
 				"quote": "Enables certain infantry to use krak grenades",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -578,14 +590,15 @@
 				"row": 2,
                 "prerequisites": ["6th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Allows multi meltas for Land Speeders and Land Raiders]"]
 			},
             {
 				"name": "T7 Weapon Upgrade B",
 				"row": 6,
                 "prerequisites": ["6th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -617,15 +630,17 @@
 				"name": "T8 Nation Upgrade A",
 				"row": 2,
                 "prerequisites": ["7th Breakthrough"],
-				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment []",]
+				"quote": "You gained a nation upgrade",
+				"uniques": ["Comment [Your city can now expand by 1 tile further] <for [Space Marines] civilizations>",
+							"Only available <after discovering [City Exapnsion 2]> <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T8 Nation Upgrade B",
 				"row": 4,
                 "prerequisites": ["7th Breakthrough"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"quote": "You gained a nation upgrade",
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T8 Infantry",
@@ -708,14 +723,16 @@
 				"row": 2,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "City Creation now costs 50% less",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Monster",
 				"row": 4,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Aircraft",
@@ -737,15 +754,17 @@
 				"name": "T9 Weapon Upgrade A",
 				"row": 1,
                 "prerequisites": ["8th Breakthrough"],
-				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Las weapons gain 2 armor penetration] <for [Space Marines] civilizations>"]
+				"quote": "Weapon upgraded",
+				"uniques": ["Comment [Las weapons gain 2 armor penetration] <for [Space Marines] civilizations>",
+							"[+16]% strength <when attacking> <for [{Las Weapon} {Space Marines] units> <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Weapon Upgrade B",
 				"row": 3,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Add uniques for other faction later]"]
+				"uniques": ["Comment [Add uniques for other faction later]",
+							"Unavailable <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Nation Upgrade A",
@@ -753,14 +772,14 @@
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
 				"uniques": ["Comment [Aircraft gain 2 armor] <for [Space Marines] civilizations>",
-							"[+16]% strength <when defending> <for [{Aircraft} {Space Marines}] units>"]
+							"[+16]% strength <when defending> <for [{Aircraft} {Space Marines}] units> <for [Space Marines] civilizations>"]
 			},
             {
 				"name": "T9 Nation Upgrade B",
 				"row": 7,
                 "prerequisites": ["8th Breakthrough"],
 				"quote": "Enables Production of X Vehicle/Monster",
-				"uniques": ["Comment [Drop pods now allow units to move farther after dropping] <for [Space Marines] civilizations>"]
+				"uniques": ["Comment [Drop pods now allow units to move farther and attack after dropping] <for [Space Marines] civilizations>"]
 			},
 		]
 	},
@@ -800,7 +819,8 @@
 				"row": 3,
                 "prerequisites": ["9th Breakthrough"],
 				"quote": "Enables Production of X infantry",
-				"uniques": ["Comment [Allows Fortress towers to use Krak Storm Missiles] <for [Space Marines] civilizations>"]
+				"uniques": ["Comment [Allows Fortress towers to use Krak Storm Missiles] <for [Space Marines] civilizations>",
+							"[This Unit] gains the [Arm Missile] promotion <for [{Fortress Tower} {Space Marines}] units>"]
 			},
             {
 				"name": "T10 Nation Upgrade C",
